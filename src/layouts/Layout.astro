@@ -1,0 +1,50 @@
+---
+
+// import components
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+// import tailwind
+import "../styles/global.css";
+---
+
+<!doctype html>
+<html lang="en" class="size-full">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="../assets/logo.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Hasqibar</title>
+	</head>
+	<body
+	class="m-0
+    px-10
+    flex
+    items-center
+    flex-col
+    size-full
+    overflow-x-hidden
+    overflow-y-auto
+	bg-no-repeat
+    bg-linear-to-b
+    from-start_bg
+    to-end_bg"
+	>
+		<Header />
+		<div
+			class="box
+            border
+            rounded-4xl
+            border-white
+            size-full
+			items-center
+			flex
+			flex-col"
+		>
+			<slot />
+		</div>
+		<Footer/>
+		<script src="../JS/gsap.js"></script>
+	</body>
+</html>

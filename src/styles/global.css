@@ -1,0 +1,88 @@
+/* call font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* call sometin impotah */
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+    /* Warna Background Gelap */
+    --color-start_bg: #061D38;
+    --color-end_bg: #030F1D;
+
+    /* Font Installing */
+    --font-poppins: "Poppins", sans-serif;
+
+    /* Cream Color */
+    --color-cream_light: #FEFBF7;
+    --color-cream_light_hover: #FEF9F3;
+    --color-cream_light_active: #FCF3E6;
+    --color-cream_normal: #F6D8AE;
+    --color-cream_normal_hover: #DDC29D;
+    --color-cream_normal_active: #C5AD8B;
+    --color-cream_dark: #B9A283;
+    --color-cream_dark_hover: #948268;
+    --color-cream_dark_active: #6F614E;
+    --color-cream_darker: #564C3D;
+
+    /* Black Color */
+    --color-black_light: #EBEBEB;
+    --color-black_light_hover: #E0E1E1;
+    --color-black_light_active: #BFC0C2;
+    --color-black_normal: #323539;
+    --color-black_normal_hover: #2D3033;
+    --color-black_normal_active: #282A2E;
+    --color-black_dark: #26282B;
+    --color-black_dark_hover: #1E2022;
+    --color-black_dark_active: #16181A;
+    --color-black_darker: #121314;
+
+    /* Tosca Color */
+    --color-tosca_light: #EAECEE;
+    --color-tosca_light_hover: #E0E2E6;
+    --color-tosca_light_active: #BEC4CB;
+    --color-tosca_normal: #2E4057;
+    --color-tosca_normal_hover: #293A4E;
+    --color-tosca_normal_active: #253346;
+    --color-tosca_dark: #233041;
+    --color-tosca_dark_hover: #1C2634;
+    --color-tosca_dark_active: #151D27;
+    --color-tosca_darker: #10161E;
+
+    /* Blue Color */
+    --color-blue_light: #E6ECF1;
+    --color-blue_light_hover: #DAE2EB;
+    --color-blue_light_active: #B2C3D5;
+    --color-blue_normal: #083D77;
+    --color-blue_normal_hover: #07376B;
+    --color-blue_normal_active: #06315F;
+    --color-blue_dark: #062E59;
+    --color-blue_dark_hover: #052547;
+    --color-blue_dark_active: #041B36;
+    --color-blue_darker: #03152A;
+
+
+    /* Red Color */
+    --color-red_light: #FBECF0;
+    --color-red_light_hover: #F9E3E8;
+    --color-red_light_active: #F4C4D0;
+    --color-red_normal: #DA4167;
+    --color-red_normal_hover: #C43B5D;
+    --color-red_normal_active: #AE3452;
+    --color-red_dark: #A4314D;
+    --color-red_dark_hover: #83273E;
+    --color-red_dark_active: #621D2E;
+    --color-red_darker: #4C1724;
+
+    /* Yellow Color */
+    --color-yellow_light: #FEFBEF;
+    --color-yellow_light_hover: #FDF8E7;
+    --color-yellow_light_active: #FCF1CD;
+    --color-yellow_normal: #F4D35E;
+    --color-yellow_normal_hover: #DCBE55;
+    --color-yellow_normal_active: #C3A94B;
+    --color-yellow_dark: #B79E47;
+    --color-yellow_dark_hover: #927F38;
+    --color-yellow_dark_active: #6E5F2A;
+    --color-yellow_darker: #554A21;
+}

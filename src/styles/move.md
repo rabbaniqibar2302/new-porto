@@ -1,0 +1,10 @@
+--color-yellow_light: #FEFBEF;
+  --color-yellow_light_hover: #FDF8E7;
+  --color-yellow_light_active: #FCF1CD;
+  --color-yellow_normal: #F4D35E;
+  --color-yellow_normal_hover: #DCBE55;
+  --color-yellow_normal_active: #C3A94B;
+  --color-yellow_dark: #B79E47;
+  --color-yellow_dark_hover: #927F38;
+  --color-yellow_dark_active: #6E5F2A;
+  --color-yellow_darker: #554A21
