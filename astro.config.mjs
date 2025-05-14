@@ -7,6 +7,7 @@ export default defineConfig({
     vite: {
         plugins: [tailwindcss()],
       },
+      // Under constructions
     redirects: {
     "/": {
       status: 302,
