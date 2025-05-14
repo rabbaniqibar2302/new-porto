@@ -1,9 +1,9 @@
 ---
 
 // import components
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
-
+import Header from "../components/Top.astro";
+import Footer from "../components/Bottom.astro";
+import Logome from "../assets/logo.svg";
 // import tailwind
 import "../styles/global.css";
 ---
@@ -13,7 +13,7 @@ import "../styles/global.css";
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="../assets/logo.svg" />
+		<link rel="icon" href={Logome.src} type="image/x-icon">
 		<meta name="generator" content={Astro.generator} />
 		<title>Hasqibar</title>
 	</head>

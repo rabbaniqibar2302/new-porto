@@ -1,15 +1,14 @@
 ---
 // import layouts
 import Layout from '../layouts/Layout.astro';
-import Qib from '../components/HeadSection.astro';
-import Judul from '../components/Headings.astro';
-import Module from '../components/Module.astro';
+import Navbar from '../components/Navbar.astro';
+
+// data navbar
+const nav_data = ["satu","dua"];
 ---
 
 <!-- fix layout and items -->
 
 <Layout>
-		<Judul/>
-		<Qib/>
-		<Module/>
+	<Navbar item={nav_data}>
 </Layout>
